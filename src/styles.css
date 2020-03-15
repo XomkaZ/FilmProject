@@ -8,3 +8,15 @@ html {
   box-sizing: inherit;
 }
 
+.list-item__image {
+  width: 350px;
+  height: 450px;
+}
+
+.prev-pages {
+  display: block;
+}
+
+/* .block {
+  display: inline-block;
+} */
