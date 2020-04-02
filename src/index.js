@@ -1,2 +1,8 @@
-import "./styles.css"
-import "../src/comp/services"
+import "./style.css";
+import service from "./comp/services";
+
+
+service.defaultFilms()
+
+
+

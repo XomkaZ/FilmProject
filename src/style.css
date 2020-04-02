@@ -1,0 +1,70 @@
+* {
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* background: linear-gradient(to right, #1a2a6c, #b21f1f, #b37e0d); */
+  background: linear-gradient(to right, #8e0e00, #1f1c18);
+  width: 1090px;
+
+}
+
+header{
+padding: 30px auto;
+position: relative;
+}
+
+
+input {
+  display: inline-block;
+  height: 40px;
+  width: 200px;
+  text-align: left;
+  font-size: 19px;
+  background-color: darkgray;
+  border-radius: 6px;
+  border: 0.2px solid;
+}
+
+header .saved{
+
+}
+
+
+.FilmPaths{
+  height: auto;
+  font-size: 0;
+}
+
+.Film {
+  display: inline-block;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  font-size: 14px;
+  text-align: center;
+}
+
+
+.Film img {
+  width: 250px;
+  height: 375px;
+  border-radius: 2px;
+}
+
+.Film:nth-child(4n + 4) {
+  padding-right: 0px;
+}
+
+/* input {
+  margin: 10px;
+  border: 2px solid;
+  width: 190px;
+  height: 30px;
+}
+
+#search {
+  width: 70px;
+  height: 30px;
+} */
