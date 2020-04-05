@@ -4,10 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Webpack Starter Kit</title>
+    <title>Films</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
   </head>
 
-  <body>
-    <h2>film project</h2>
+  <body class="body">
+    <h2 id="top" class="project-name"><a class="homeLink" href="">FILM PROJECT</a> </h2>
+    <div class="search">
+      <form class="form">
+        <input type="text" class="input" />
+        <button type="submit" class="button">submit</button>
+      </form>
+      <button class="favorite">show favs</button>
+    </div>
+    <ul class="filmContainer"></ul>
+    <div class="buttons-and-stuff">
+    <button type="submit" class="previous">Previous Page</button>
+    <button type="submit" class="next">Next page</button>
+    <a href="#top"
+      ><img class="link-anchor" src="./img/arrow-up-6-48.png" alt="arrow up"
+    /></a>
+  </div>
+    <footer class="footer">
+      ©Film Project by VLOF WORLDWIDE. All rights reserved.
+    </footer>
   </body>
 </html>

@@ -2,18 +2,122 @@ html {
   box-sizing: border-box;
 }
 
-*,
-*::before,
-*::after {
+*, *::before, *::after {
   box-sizing: inherit;
+  /* padding: 0px;
+  margin: 0px; */
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif,
-    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  background-color: white;
+  margin: 0;
+}
 
-  /*
-   * CSS image reference example.
-   */
+.input {
+  background-color:black;
+  color: white;
+  font-family: monospace;
+  font-weight: 500;
+  border: 0.5px solid white;
+  padding: 10px;
+  width: 200px; 
+  margin-right: 10px;
+}
+
+
+.filmContainer {
+  padding: 50px;
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin: 20px;
+}
+
+.li {
+  list-style: none;
+  width: 500px;
+  height: 800px;
+  /* display: list-item; */
+  margin: 20px;
+  /* padding: 100px; */
+}
+
+.footer {
+  background-color: black;
+  height: 50px;
+  width: 100%;
+  margin-top: 20px;
+  position: relative;
+  left: 0px;
+  bottom: 0px;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.title {
+  color: rgb(255, 255, 255);
+  font-family: monospace;
+  display: flex;
+  justify-content: center;
+}
+
+.link-anchor {
+  width: 15px;
+  height: 15px;
+  color: white;
+}
+
+.search {
+  margin-top: 0;
+  background-color: black;
+  height: 50px;
+  width: 100%;
+  position: relative;
+  left: 0px;
+  bottom: 0px;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.favorite {
+  margin: 10px;
+}
+
+.body {
+  background-color:black;
+}
+
+.footer {
+  font-family: monospace;
+}
+
+.project-name {
+  font-family: monospace;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.buttons-and-stuff {
+  display: flex;
+  justify-content: center;
+}
+
+.homeLink{
+  text-decoration: none;
+  color: white;
 }

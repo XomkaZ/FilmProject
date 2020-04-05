@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/luxplanjay/webpack-starter-kit.git"
+    "url": "https://github.com/vlad14215/BlkFilm"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Vlad Ryabchenko <zzzvladzzz618@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/luxplanjay/webpack-starter-kit/issues"
+    "url": "https://github.com/vlad14215/BlkFilm"
   },
-  "homepage": "https://github.com/luxplanjay/webpack-starter-kit#readme",
+  "homepage": "https://github.com/vlad14215/BlkFilm",
   "devDependencies": {
     "@babel/core": "^7.6.4",
     "@babel/plugin-proposal-class-properties": "^7.5.5",
@@ -49,7 +49,10 @@
     "webpackbar": "^4.0.0"
   },
   "dependencies": {
+    "@sweetalert2/theme-dark": "^3.1.4",
+    "@sweetalert2/themes": "^3.1.4",
     "core-js": "^3.3.4",
-    "handlebars": "^4.5.3"
+    "handlebars": "^4.5.3",
+    "sweetalert2": "^9.10.9"
   }
 }
