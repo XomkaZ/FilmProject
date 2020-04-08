@@ -4,10 +4,48 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Webpack Starter Kit</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
 
   <body>
-    <h2>FilmProject</h2>
+    <body id="up">
+      <nav class="navigation">
+        <div class="nav_navbar">
+        <button class="home">Main</button>
+        <button class="favorites">Favorites</button>
+        </div>
+        <div class="sub_navigate">
+        <input type="text"  class="input">
+        <button type="submit" class="submit">Find</button>
+        </div>
+    </nav>
+    <ul class="main">
+
+    </ul>
+    <div class="description">
+      <div class="description_overlay"></div>
+      <div class="content">
+        <img class="description_image" src="#" alt="" />
+        <button class="close">Back</button>
+        <div class="all_about">
+          <div class="about">
+            <h3>About:</h3>
+            <div class="short_description"></div>
+          </div>
+          <div class="watched_button">
+            <button class="favourite_button">Add to favourites</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="change-page">
+      <button class="previous">Previous</button>
+      <button class="next" href="#up">Next</button>
+      <button class="up">
+        <a class = "up_href" href="#up">
+          <img class="fixed_image" src="https://icons8.com/iconizer/files/VistaICO_Toolbar_Icons/orig/Arrow-Up.png"/>
+        </a>
+      </button>
+    </div>
   </body>
 </html>

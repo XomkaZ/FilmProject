@@ -1,4 +1,7 @@
 import './styles.css';
-console.log('work');
+import './components/services';
 
-console.log('img in');
+//console.log(window.innerWidth)
+//document.querySelector('.favorite').addEventListener('click', () => {
+//    services.favouriteFilms();
+//});
