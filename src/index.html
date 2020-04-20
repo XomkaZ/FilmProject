@@ -1,32 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link rel="stylesheet" href="style.css">
-  <title>Film Project by vadim</title>
-</head>
-<body>
-    <header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Film Project by vadim</title>
+  </head>
+  <body>
+    <header class="divMenu">
+      <h2><a class="logo" href="body">Filmoteka</a></h2>
       <form class="form center">
-        <input>
-        <button>Submit</button>
+        <input />
+        <button type="submit">Submit</button>
       </form>
-      <ul class="saved">
-        <li id="watched">Watched</li>
-        <li id="toWatch">Gonna</li>
-      </ul>
+      <div class="menu">
+        <ul>
+          <li class="liItem"><a class="menuItem" href="#">Watch</a></li>
+        </ul>
+      </div>
     </header>
 
-  <div class="FilmPaths">
-    
-  </div>
+    <div class="FilmPaths"></div>
 
-  <div class="buttons">
-    <button>Back</button>
-    <button>Next</button>
-  </div>
-</body>
+    <div class="watch"></div>
+
+
+    <div class="buttons">
+      <button class="backSlide">Back</button>
+      <button class="loadMore">Next</button>
+    </div>
+  </body>
 </html>
